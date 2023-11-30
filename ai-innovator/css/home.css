@@ -1,0 +1,35 @@
+.ai-future > div {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+    .ai-future h1 {
+        font-size: 5rem !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .ai-future {
+        flex-direction: column;
+    }
+
+    .ai-future > div {
+        flex-basis: 100%;
+        max-width: 100%;
+    }    
+}
+
+.about-home > div {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.about-home-content {
+    padding: 46px;
+}
+
+.about-home-content .content {
+    max-width: 585px;
+    color: #B1B1B1;
+}

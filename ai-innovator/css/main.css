@@ -1,0 +1,82 @@
+@import url(../css/variables.css);
+@import url(../css/contact.css);
+@import url(../css/projects.css);
+@import url(../css/home.css);
+
+* {
+    font-family: 'Satoshi';
+}
+
+body {
+    background-color: var(--color-primary);
+}
+
+.custom-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+header {
+    background: transparent linear-gradient(180deg, var(--color-header-gradient-1) 0%, var(--color-header-gradient-2) 100%) 0% 0% no-repeat padding-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header-logo {
+    width: 204px;
+    height: 93px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 46px;
+}
+
+.header-menu a {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-family: var(--header-font);
+    transition: .5s;
+}
+
+.header-menu a.active,
+.header-menu a:hover {
+    color: var(--color-active);
+}
+
+.header-menu a.button-neon {
+    width: 176px;
+    height: 54px;
+}
+
+a.button-neon {
+    background: #80008030;
+    box-shadow: 0px 0px 7px #FF58FF;
+    text-shadow: 0px 0px 7px #800080;
+    border: 1px solid #21C3FE;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    color: #00C4FEE3;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.button-neon:hover {
+    color: #00C4FEE3;
+    filter: brightness(1.5);
+}
