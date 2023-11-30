@@ -33,3 +33,31 @@
     max-width: 585px;
     color: #B1B1B1;
 }
+
+.about-home-content .content > p:last-of-type {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+    .about-home {
+        flex-direction: column-reverse;
+        padding: 0 30px;
+    }
+
+    .about-home > div {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .about-home-content {
+        padding: 0;
+        background-image: url("../img/aboutus-home.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
+    
+    .about-home-image {
+        display: none !important;
+    }
+}
