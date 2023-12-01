@@ -1,90 +1,15 @@
 @import url(../css/variables.css);
-@import url(../css/contact.css);
-@import url(../css/projects.css);
+@import url(../css/typography.css);
+@import url(../css/components.css);
+@import url(../css/skin.css);
 @import url(../css/home.css);
 
-* {
-    font-family: 'Sarabun Medium';
-}
-
 body {
-    background-color: var(--color-primary);
     padding: 0;
-}
-
-.custom-container {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 30px;
 }
 
 .mb-30 {
     margin-bottom: 30px;
-}
-
-header {
-    background: transparent linear-gradient(180deg, var(--color-header-gradient-1) 0%, var(--color-header-gradient-2) 100%) 0% 0% no-repeat padding-box;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header a {
-    text-decoration: none;
-}
-
-.header-logo {
-    width: 204px;
-    height: 93px;
-}
-
-.header-menu {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 46px;
-}
-
-.header-menu a {
-    color: var(--color-white);
-    font-size: 1.5rem;
-    font-family: var(--header-font);
-    transition: .5s;
-}
-
-.header-menu a.active,
-.header-menu a:hover {
-    color: var(--color-active);
-}
-
-a.button-neon.apply-now {
-    width: 176px;
-    height: 54px;
-}
-
-a.button-neon {
-    background: #80008030;
-    box-shadow: 0px 0px 7px #FF58FF;
-    text-shadow: 0px 0px 7px #800080;
-    border: 1px solid #21C3FE;
-    border-radius: 50px;
-    font-size: 1.2rem;
-    color: #00C4FEE3;
-    cursor: pointer;
-    font-weight: bold;
-    transition: .5s;
-    width: fit-content;
-    padding: 15px 30px;
-    text-decoration: none;
-    text-align: center;
-}
-
-a.button-neon:hover {
-    color: #00C4FEE3;
-    filter: brightness(1.5);
 }
 
 .my-custom {
@@ -92,64 +17,19 @@ a.button-neon:hover {
     margin-bottom: 164px;   
 }
 
+.py-custom {
+    padding-top: 164px;
+    padding-bottom: 164px;   
+}
+
 @media screen and (max-width: 1023px) {
     .my-custom {
         margin-top: 64px;
         margin-bottom: 64px;   
     }
-}
 
-.footer {
-    background: transparent linear-gradient(180deg, #80008043 0%, #01052D64 100%) 0% 0% no-repeat padding-box;
-    padding: 50px 15px;
-}
-
-@media screen and (min-width: 1024px) {
-    .footer-top {
-        margin-bottom: 64px;
-    }
-
-    .footer-top > div {
-        flex-basis: 33.333%;
-        max-width: 33.333%;
-    }
-}
-
-.footer-content,
-.footer-nav,
-.copyright {
-    font-size: 18px;
-    color: #B1B1B1;
-}
-
-.footer-nav {
-    margin-bottom: 8px;
-    transition: .5s;
-    text-decoration: none !important;
-}
-
-.footer-nav:hover {
-    color: var(--color-active);
-}
-
-@media screen and (max-width: 1023px) {
-    .footer {
-        padding: 0;
-    }
-
-    .footer-top {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .footer-content,
-    .footer-nav,
-    .copyright {
-        font-size: 14px;
-    }
-
-    .copyright {
-        border-top: 1px solid #80008080;
-        padding: 15px 30px;
+    .py-custom {
+        padding-top: 64px;
+        padding-bottom: 64px;   
     }
 }

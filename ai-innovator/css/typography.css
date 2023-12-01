@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Sarabun Medium';
+    src: url('../font/Sarabun-Medium.woff2') format('woff2'),
+        url('../font/Sarabun-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BenzGrotesk';
+    src: url('../font/BenzGrotesk-Heavy.woff2') format('woff2'),
+        url('../font/BenzGrotesk-Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Sarabun Medium';
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'BenzGrotesk';
+    margin-top: 0;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+}
+
+
+p {
+    font-size: 20px;
+    line-height: 140%;
+}
+
+
+@media screen and (max-width: 1023px) {
+    p {
+        font-size: 16px;
+    }
+}

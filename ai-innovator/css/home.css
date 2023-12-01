@@ -1,11 +1,11 @@
-.ai-future > div {
+.ai-future>div {
     flex-basis: 50%;
     max-width: 50%;
 }
 
 @media screen and (min-width: 1024px) {
     .ai-future h1 {
-        font-size: 5rem !important;
+        font-size: 5rem;
     }
 }
 
@@ -14,13 +14,13 @@
         flex-direction: column;
     }
 
-    .ai-future > div {
+    .ai-future>div {
         flex-basis: 100%;
         max-width: 100%;
-    }    
+    }
 }
 
-.about-home > div {
+.about-home>div {
     flex-basis: 50%;
     max-width: 50%;
 }
@@ -31,10 +31,9 @@
 
 .about-home-content .content {
     max-width: 585px;
-    color: #B1B1B1;
 }
 
-.about-home-content .content > p:last-of-type {
+.about-home-content .content>p:last-of-type {
     margin-bottom: 30px;
 }
 
@@ -44,7 +43,7 @@
         padding: 0 30px;
     }
 
-    .about-home > div {
+    .about-home>div {
         flex-basis: 100%;
         max-width: 100%;
     }
@@ -54,10 +53,35 @@
         background-image: url("../img/aboutus-home.png");
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: center ;
+        background-position: center;
+        align-items: center;
     }
-    
+
     .about-home-image {
         display: none !important;
+    }
+}
+
+.benefits-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.benefits-content .neon-card {
+    flex-basis: 24%;
+    max-width: 24%;
+}
+
+@media screen and (max-width:1023px) {
+    .benefits-content {
+        gap: 5px;
+    }
+
+    .benefits-content .neon-card {
+        flex-basis: 49%;
+        max-width: 49%;
     }
 }

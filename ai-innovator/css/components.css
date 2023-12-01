@@ -1,0 +1,205 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header-logo {
+    width: 204px;
+    height: 93px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 46px;
+}
+
+.header-menu a {
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+/* Footer */
+.footer {
+    padding: 50px 15px;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-top {
+        margin-bottom: 64px;
+    }
+
+    .footer-top > div {
+        flex-basis: 33.333%;
+        max-width: 33.333%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer-top {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.footer-content,
+.footer-nav,
+.copyright {
+    font-size: 18px;
+}
+
+a.footer-nav {
+    margin-bottom: 8px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer-content,
+    .footer-nav,
+    .copyright {
+        font-size: 14px;
+    }
+
+    .copyright {
+        padding: 15px 30px;
+    }
+}
+
+/* Button Neon */
+a.button-neon.apply-now {
+    width: 176px;
+    height: 54px;
+}
+
+a.button-neon {
+    width: fit-content;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 120%;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+    a.button-neon {
+        padding: 15px;
+    }
+}
+
+a.button-neon:hover {
+    filter: brightness(1.5);
+}
+
+/* Container */
+.custom-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Neon Card */
+.neon-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    padding: 50px 30px;
+}
+
+.neon-card p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    flex: 1 1;
+}
+
+@media screen and (max-width:1023px) {
+    .neon-card {
+        padding: 30px 20px;
+    }
+}
+
+/* Award Component */
+.awards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.award {
+    flex-basis: 30%;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.prize {
+    width: 100%;
+    max-width: 275px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border-radius: 50px;
+    font-family: 'BenzGrotesk';
+    margin-bottom: 24px;
+}
+
+.top-prize {
+    max-width: 324px;
+    height: 100px;
+}
+
+.award p {
+    margin: 0 0 0 15px;
+}
+
+@media screen and (max-width:1023px) {
+    .awards {
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px 0;
+    }
+
+    .award {
+        margin: 0;
+        flex-basis: 100%;
+        max-width: 100%;
+        order: 1;
+    }
+
+    .award-top {
+        order: 0;
+    }
+}

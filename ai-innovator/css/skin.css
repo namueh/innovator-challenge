@@ -1,0 +1,79 @@
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-white);
+}
+
+p {
+    color: var(--color-text-gray);
+}
+
+/* Body */
+body {
+    background-color: var(--color-background);
+}
+
+/* Header */
+header {
+    background: transparent linear-gradient(180deg, var(--color-header-gradient-1) 0%, var(--color-header-gradient-2) 100%) 0% 0% no-repeat padding-box;
+}
+
+.header-menu a {
+    color: var(--color-white);
+}
+
+.header-menu a.active,
+.header-menu a:hover {
+    color: var(--color-active);
+}
+
+/* Footer */
+.footer {
+    background: transparent linear-gradient(180deg, var(--color-footer-gradient-1) 0%, var(--color-footer-gradient-2) 100%) 0% 0% no-repeat padding-box;
+    color: var(--color-text-gray);
+}
+
+.footer-nav:hover {
+    color: var(--color-active);
+}
+
+.footer-content,
+.footer-nav,
+.copyright {
+    color: var(--color-text-gray);
+}
+
+@media screen and (max-width: 1023px) {
+    .copyright {
+        border-top: 1px solid var(--color-copyright-border);
+    }
+}
+
+/* Button Neon */
+a.button-neon,
+a.button-neon:hover {
+    background: var(--color-neon-btn-bg);
+    box-shadow: 0px 0px 7px var(--color-neon-btn-shadow);
+    text-shadow: 0px 0px 7px var(--color-neon-btn-shadow-text);
+    border: 1px solid var(--color-neon-btn-border);
+    color: var(--color-neon-btn-text);
+}
+
+/* Neon Card */
+.neon-card {
+    background: transparent linear-gradient(180deg, var(--color-neon-card-gradient-1) 0%, var(--color-neon-card-gradient-2) 100%) 0% 0% no-repeat padding-box;
+}
+
+/* Award Component */
+.awards-wrapper {
+    background: transparent linear-gradient(to right, #441C72C1 0%, #01052D 49%, #441C72BF 100%) 0% 0% no-repeat padding-box;
+}
+
+.prize {
+    background: transparent linear-gradient(180deg, #00C4FED8 0%, #21C3FE00 100%) 0% 0% no-repeat padding-box;
+    color: #FFCF4B;
+}
