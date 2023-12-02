@@ -33,3 +33,8 @@ body {
         padding-bottom: 64px;   
     }
 }
+
+.logo {
+    width: 200px;
+    height: 94px;
+}

@@ -22,8 +22,13 @@
     --color-neon-card-gradient-1: #441C72C1;
     --color-neon-card-gradient-2: #01052D34;
 
+    /* Slick */
+    --color-arrow-border: #3D8AE2;
+
     /* Sub color */
     --color-active: #CA22E9;
     --color-white: #fff;
+    --color-red: #E60040;
+    --color-blue: #21C3FE;
     --color-text-gray: #B1B1B1;
 }

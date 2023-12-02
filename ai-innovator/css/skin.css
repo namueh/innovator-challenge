@@ -77,3 +77,38 @@ a.button-neon:hover {
     background: transparent linear-gradient(180deg, #00C4FED8 0%, #21C3FE00 100%) 0% 0% no-repeat padding-box;
     color: #FFCF4B;
 }
+
+/* Guidelines Home */
+.check-guidelines {
+    color: var(--color-text-gray);
+}
+
+.guidelines-link {
+    color: var(--color-red);
+}
+
+.guidelines-link:hover {
+    color: var(--color-blue);
+}
+
+/* Slick */
+.slick-arrow::before {
+    border: 1px solid var(--color-arrow-border);
+}
+
+.slick-arrow::after {
+    border-top: 3px solid var(--color-white);
+}
+
+.slick-arrow.slick-prev::after {
+    border-left: 3px solid var(--color-white);
+}
+
+.slick-arrow.slick-next::after {
+    border-right: 3px solid var(--color-white);
+}
+
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before {
+    color: var(--color-white);
+}
