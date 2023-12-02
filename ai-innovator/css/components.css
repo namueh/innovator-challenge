@@ -116,18 +116,61 @@ a.button-neon:hover {
     padding: 30px;
 }
 
-/* Neon Card */
-.neon-card {
+/* Card */
+.neon-cards-wrapper,
+.simple-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.neon-cards-wrapper .neon-card,
+.simple-cards-wrapper .simple-card {
+    flex-basis: 24%;
+    max-width: 24%;
+}
+
+@media screen and (max-width:1023px) {
+    .neon-cards-wrapper,
+    .simple-cards-wrapper {
+        gap: 5px;
+    }
+
+    .neon-cards-wrapper .neon-card,
+    .simple-cards-wrapper .simple-card {
+        flex-basis: 49%;
+        max-width: 49%;
+    }
+}
+
+.neon-card,
+.simple-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
     transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.neon-card {
     padding: 50px 30px;
 }
 
-.neon-card p {
+.simple-card {
+    padding: 10px;
+}
+
+.neon-card img,
+.simple-card img {
+    width: 71px;
+    height: 71px;
+}
+
+.neon-card p,
+.simple-card p {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     /* autoprefixer: off */

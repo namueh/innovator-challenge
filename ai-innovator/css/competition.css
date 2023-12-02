@@ -1,0 +1,120 @@
+/* AI Future */
+.ai-future-competition>div,
+.ai-ethics>div {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.ai-future-competition-img {
+    justify-content: flex-start;
+}
+
+.ai-future-competition-img img {
+    max-width: 360px;
+}
+
+.ai-future-competition-content p:last-of-type {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+    .ai-future-competition {
+        flex-direction: column-reverse;
+    }
+
+    .ai-future-competition>div,
+    .ai-ethics>div {
+        flex-basis: 100%;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .ai-future-competition-img {
+        margin-top: 40px;
+    }
+
+    .ai-future-competition-img img {
+        max-width: 100%;
+    }
+}
+
+/* Business Application */
+.business-application .neon-cards-wrapper .neon-card {
+    flex-basis: 32%;
+    max-width: 32%;
+}
+
+.endorsed p {
+    font-style: italic;
+}
+
+@media screen and (max-width:1023px) {
+    .business-application .neon-cards-wrapper {
+        gap: 20px;
+    }
+    
+    .business-application .neon-cards-wrapper .neon-card {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* Card images */
+.card-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.card-images img {
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* AI Ethics */
+@media screen and (max-width: 1023px) {
+    .ai-ethics {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Ethical Concerns */
+.contributing {
+    width: 100%;
+    max-width: 210px;
+    margin-top: 24px;
+}
+
+.contributing .experts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contributing .experts .expert {
+    flex-basis: 40%;
+    max-width: 40%;
+}
+
+.contributing .experts .expert img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+.contributing .experts .expert p {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 540px) {
+    .ethical-concerns .simple-cards-wrapper .simple-card {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}

@@ -22,7 +22,7 @@
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 h2 {
@@ -91,5 +91,16 @@ p {
 @media screen and (max-width: 1023px) {
     p {
         font-size: 16px;
+    }
+}
+
+.large-font {
+    font-family: 'BenzGrotesk';
+    font-size: 64px;
+}
+
+@media screen and (max-width: 1023px) {
+    .large-font {
+        font-size: 54px;
     }
 }
