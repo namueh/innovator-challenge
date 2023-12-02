@@ -70,12 +70,12 @@ a.button-neon:hover {
 
 /* Award Component */
 .awards-wrapper {
-    background: transparent linear-gradient(to right, #441C72C1 0%, #01052D 49%, #441C72BF 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(to right, var(--color-award-wrapper-gradient-1) 0%, var(--color-award-wrapper-gradient-2) 49%, var(--color-award-wrapper-gradient-3) 100%) 0% 0% no-repeat padding-box;
 }
 
 .prize {
-    background: transparent linear-gradient(180deg, #00C4FED8 0%, #21C3FE00 100%) 0% 0% no-repeat padding-box;
-    color: #FFCF4B;
+    background: transparent linear-gradient(180deg, var(--color-prize-gradient-1) 0%, var(--color-prize-gradient-2) 100%) 0% 0% no-repeat padding-box;
+    color: var(--color-prize);
 }
 
 /* Guidelines Home */
@@ -111,4 +111,22 @@ a.button-neon:hover {
 .slick-dots li button:before,
 .slick-dots li.slick-active button:before {
     color: var(--color-white);
+}
+
+/* Important Dates */
+.important-date::before {
+    background: transparent linear-gradient(231deg, var(--color-important-date-gradient-1) 0%, var(--color-important-date-gradient-2) 100%) 0% 0% no-repeat padding-box;
+}
+
+.important-date:first-of-type:after,
+.important-date:last-of-type:after {
+    border: 1px solid var(--color-background);
+}
+
+.center-line {
+    border: 1px dashed var(--color-center-line);
+}
+
+.date-content {
+    background: transparent linear-gradient(90deg, var(--color-date-content-gradient-1) 0%, var(--color-date-content-gradient-2) 100%) 0% 0% no-repeat padding-box;
 }

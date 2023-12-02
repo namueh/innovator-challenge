@@ -22,6 +22,24 @@
     --color-neon-card-gradient-1: #441C72C1;
     --color-neon-card-gradient-2: #01052D34;
 
+    /* Award Component */
+    --color-award-wrapper-gradient-1: #441C72C1;
+    --color-award-wrapper-gradient-2: #01052D;
+    --color-award-wrapper-gradient-3: #441C72BF;
+
+    --color-prize-gradient-1: #00C4FED8;
+    --color-prize-gradient-2: #21C3FE00;
+    --color-prize: #FFCF4B;
+
+    /* Important Dates */
+    --color-important-date-gradient-1: #800080;
+    --color-important-date-gradient-2: #21C3FE;
+
+    --color-center-line: #5C0E4C;
+
+    --color-date-content-gradient-1: #441C72C1;
+    --color-date-content-gradient-2: #01052D81;
+
     /* Slick */
     --color-arrow-border: #3D8AE2;
 
