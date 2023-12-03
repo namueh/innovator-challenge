@@ -1,7 +1,25 @@
 @font-face {
+    font-family: 'Sarabun Regular';
+    src: url('../font/Sarabun-Regular.woff2') format('woff2'),
+        url('../font/Sarabun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Sarabun Medium';
     src: url('../font/Sarabun-Medium.woff2') format('woff2'),
         url('../font/Sarabun-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun Bold';
+    src: url('../font/Sarabun-Bold.woff2') format('woff2'),
+        url('../font/Sarabun-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -46,12 +64,17 @@ h6 {
 }
 
 h1,
-h2,
+h2 {
+    font-family: 'BenzGrotesk';
+    margin-top: 0;
+    line-height: 140%;
+}
+
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'BenzGrotesk';
+    font-family: 'Sarabun Bold';
     margin-top: 0;
     line-height: 140%;
 }
@@ -83,13 +106,22 @@ h6 {
 }
 
 
-p {
+p,
+input,
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: 'Sarabun Regular';
     font-size: 20px;
 }
 
 
 @media screen and (max-width: 1023px) {
-    p {
+    p,
+    input,
+    input[type="text"],
+    input[type="email"],
+    textarea {
         font-size: 16px;
     }
 }

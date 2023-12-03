@@ -55,7 +55,9 @@ header {
 
 /* Button Neon */
 a.button-neon,
-a.button-neon:hover {
+a.button-neon:hover,
+.button-neon,
+.button-neon:hover {
     background: var(--color-neon-btn-bg);
     box-shadow: 0px 0px 7px var(--color-neon-btn-shadow);
     text-shadow: 0px 0px 7px var(--color-neon-btn-shadow-text);

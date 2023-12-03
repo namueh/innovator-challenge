@@ -86,7 +86,8 @@ a.button-neon.apply-now {
     height: 54px;
 }
 
-a.button-neon {
+a.button-neon,
+.button-neon {
     width: fit-content;
     padding: 15px 30px;
     text-decoration: none;
@@ -103,13 +104,20 @@ a.button-neon {
 }
 
 @media screen and (max-width: 1023px) {
-    a.button-neon {
+    a.button-neon,
+    .button-neon {
         padding: 15px;
     }
 }
 
-a.button-neon:hover {
+a.button-neon:hover,
+.button-neon:hover {
     filter: brightness(1.5);
+}
+
+.button-submit {
+    width: 176px !important;
+    margin: 20px auto 0;
 }
 
 /* Container */
