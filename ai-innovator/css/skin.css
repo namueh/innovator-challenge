@@ -141,3 +141,12 @@ a.button-neon:hover,
 .date-content {
     background: transparent linear-gradient(90deg, var(--color-date-content-gradient-1) 0%, var(--color-date-content-gradient-2) 100%) 0% 0% no-repeat padding-box;
 }
+
+/* About us Form */
+.name-email-form .name-form input,
+.name-email-form .email-form input,
+.contact-form-content textarea {
+    background: var(--color-input-background);
+    border: 2px solid var(--color-input-border);
+    color: var(--color-input-text);
+}

@@ -15,27 +15,34 @@ body {
 
 .my-custom {
     margin-top: 164px;
-    margin-bottom: 164px;   
+    margin-bottom: 164px;
 }
 
 .py-custom {
     padding-top: 164px;
-    padding-bottom: 164px;   
+    padding-bottom: 164px;
 }
 
 @media screen and (max-width: 1023px) {
     .my-custom {
         margin-top: 64px;
-        margin-bottom: 64px;   
+        margin-bottom: 64px;
     }
 
     .py-custom {
         padding-top: 64px;
-        padding-bottom: 64px;   
+        padding-bottom: 64px;
     }
 }
 
 .logo {
     width: 200px;
     height: 94px;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo {
+        width: 146px;
+        height: 64px;
+    }
 }

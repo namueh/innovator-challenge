@@ -1,5 +1,19 @@
 $(document).ready(function () {
 
+    $(".hamburger").click(function () {
+        $(this).toggleClass("is-active");
+        if ($(this).hasClass("is-active")) {
+            $("body").css("overflow-y", "hidden");
+            $(".header-small-menu").addClass("active-menu");
+        } else {
+            $(".header-small-menu").addClass("deactive-menu");
+            setTimeout(function () {
+                $(".header-small-menu").removeClass("active-menu deactive-menu");
+                $("body").css("overflow-y", "unset");
+            }, 900);
+        }
+    });
+
     $('.partners-slider').slick({
         dots: false,
         arrows: true,
@@ -27,13 +41,13 @@ $(document).ready(function () {
     });
 
     $('.people-2rows-slider').slick({
-		rows: 2,
-		dots: true,
-		arrows: true,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 4,
-		slidesToScroll: 4,
+        rows: 2,
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         responsive: [
             {
                 breakpoint: 1200,

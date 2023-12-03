@@ -40,6 +40,11 @@
     --color-date-content-gradient-1: #441C72C1;
     --color-date-content-gradient-2: #01052D81;
 
+    /* Form input */
+    --color-input-background: #1D386A;
+    --color-input-border: #282249;
+    --color-input-text: #B1B1B1;
+
     /* Slick */
     --color-arrow-border: #3D8AE2;
     --color-slick-people-border: #5C0E4C;

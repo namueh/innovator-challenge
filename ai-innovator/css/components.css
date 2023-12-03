@@ -9,11 +9,6 @@
     text-decoration: none;
 }
 
-.header-logo {
-    width: 204px;
-    height: 93px;
-}
-
 .header-menu {
     display: flex;
     align-items: center;
@@ -24,6 +19,111 @@
 .header-menu a {
     font-size: 1.5rem;
     transition: .5s;
+    text-decoration: none;
+}
+
+.header-small-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        height: 130px;
+    }
+
+    .header-large {
+        display: none;
+    }
+
+    .header-small-menu {
+        background: var(--color-background);
+        position: absolute;
+        width: 100%;
+        height: calc(100% - 130px);
+        z-index: 10;
+    }
+
+    .logo {
+        width: 130px;
+        height: 64px;
+    }
+
+    .hamburger .line {
+        width: 35px;
+        height: 3px;
+        background-color: #ecf0f1;
+        display: block;
+        margin: 6px auto;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hamburger:hover {
+        cursor: pointer;
+    }
+
+    .hamburger.is-active {
+        transition: all 0.3s ease-in-out;
+        transition-delay: 0.6s;
+        transform: rotate(45deg);
+    }
+
+    .hamburger.is-active .line:nth-child(2) {
+        width: 0px;
+    }
+
+    .hamburger.is-active .line:nth-child(1),
+    .hamburger.is-active .line:nth-child(3) {
+        transition-delay: 0.3s;
+    }
+
+    .hamburger.is-active .line:nth-child(1) {
+        transform: translateY(6px);
+    }
+
+    .hamburger.is-active .line:nth-child(3) {
+        transform: translateY(-13px) rotate(90deg);
+    }
+
+    .active-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 46px;
+        padding-top: 64px;
+        opacity: 1;
+        animation: FadeIn 1s ease-in-out;
+    }
+
+    @keyframes FadeIn {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+
+        1% {
+            display: flex;
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .deactive-menu {
+        animation: FadeOut 1s ease-in-out;
+    }
+
+    @keyframes FadeOut {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
 }
 
 /* Footer */
@@ -104,6 +204,7 @@ a.button-neon,
 }
 
 @media screen and (max-width: 1023px) {
+
     a.button-neon,
     .button-neon {
         padding: 15px;
@@ -144,6 +245,7 @@ a.button-neon:hover,
 }
 
 @media screen and (max-width:1023px) {
+
     .neon-cards-wrapper,
     .simple-cards-wrapper {
         gap: 5px;
