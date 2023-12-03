@@ -6,14 +6,11 @@
 @import url(../css/competition.css);
 
 @import url(../css/people.css);
+@import url(../css/aboutus.css);
 
 body {
     padding: 0;
     overflow-x: hidden;
-}
-
-.mb-30 {
-    margin-bottom: 30px;
 }
 
 .my-custom {

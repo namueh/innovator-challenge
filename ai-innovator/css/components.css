@@ -97,6 +97,9 @@ a.button-neon {
     cursor: pointer;
     transition: .5s;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1023px) {

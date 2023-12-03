@@ -58,11 +58,11 @@ h6 {
 
 @media screen and (max-width: 1024px) {
     h1 {
-        font-size: 48px;
+        font-size: 42px;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     h3 {

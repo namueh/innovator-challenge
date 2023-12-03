@@ -39,6 +39,11 @@
 }
 
 /* Business Application */
+.business-application h2 {
+    margin-bottom: 46px;
+    text-align: center;
+}
+
 .business-application .neon-cards-wrapper .neon-card {
     flex-basis: 32%;
     max-width: 32%;
@@ -76,6 +81,10 @@
 }
 
 /* AI Ethics */
+.ai-ethics h2 {
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 1023px) {
     .ai-ethics {
         flex-direction: column;
@@ -84,6 +93,11 @@
 }
 
 /* Ethical Concerns */
+.ethical-concerns h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .contributing {
     width: 100%;
     max-width: 210px;

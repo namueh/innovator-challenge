@@ -27,6 +27,10 @@
     max-width: 50%;
 }
 
+.about-home h2 {
+    margin-bottom: 20px;
+}
+
 .about-home-content {
     padding: 46px;
 }
@@ -65,6 +69,11 @@
 }
 
 /* Benefit & Apply */
+.benefits-home h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 @media screen and (min-width:1024px) {
     .neon-cards-wrapper.apply-cards .neon-card:nth-of-type(even) {
         margin-top: 64px
@@ -127,7 +136,6 @@
     top: 0;
 }
 
-
 .important-date:last-of-type:after {
     bottom: 0;
 }
@@ -172,4 +180,16 @@
         padding: 20px;
         margin-left: 30px;
     }
+}
+
+/* Title */
+.ai-future-competition h1 {
+    margin-bottom: 30px;
+}
+
+.important-dates-home h2,
+.apply-home h2,
+.our-partner-home h2 {
+    margin-bottom: 46px;
+    text-align: center;
 }
