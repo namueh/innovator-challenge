@@ -45,6 +45,9 @@
     --color-input-border: #282249;
     --color-input-text: #B1B1B1;
 
+    /* About img border */
+    --color-about-img-border: #707070;
+
     /* Slick */
     --color-arrow-border: #3D8AE2;
     --color-slick-people-border: #5C0E4C;

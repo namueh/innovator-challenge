@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 46px;
+    gap: 30px;
 }
 
 .header-menu a {
@@ -51,7 +51,7 @@
     .hamburger .line {
         width: 35px;
         height: 3px;
-        background-color: #ecf0f1;
+        background-color: var(--color-white);
         display: block;
         margin: 6px auto;
         transition: all 0.3s ease-in-out;
@@ -225,12 +225,13 @@ a.button-neon:hover,
 .custom-container {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 /* Card */
 .neon-cards-wrapper,
-.simple-cards-wrapper {
+.simple-cards-wrapper,
+.img-cards-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -244,6 +245,11 @@ a.button-neon:hover,
     max-width: 24%;
 }
 
+.img-cards-wrapper .img-card {
+    flex-basis: 31%;
+    max-width: 31%;
+}
+
 @media screen and (max-width:1023px) {
 
     .neon-cards-wrapper,
@@ -251,21 +257,35 @@ a.button-neon:hover,
         gap: 5px;
     }
 
+    .img-cards-wrapper {
+        gap: 20px;
+    }
+
     .neon-cards-wrapper .neon-card,
     .simple-cards-wrapper .simple-card {
         flex-basis: 49%;
         max-width: 49%;
     }
+
+    .img-cards-wrapper .img-card {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
 }
 
 .neon-card,
-.simple-card {
+.simple-card,
+.img-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    text-align: center;
     transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.neon-card,
+.simple-card {
+    text-align: center;
 }
 
 .neon-card {
@@ -280,6 +300,30 @@ a.button-neon:hover,
 .simple-card img {
     width: 71px;
     height: 71px;
+}
+
+.img-card-img {
+    width: 100%;
+}
+
+.img-card-img img {
+    width: 100%;
+    border: 1px solid #5C0E4C;
+    object-fit: cover;
+}
+
+.img-card-body {
+    width: 100%;
+    padding: 30px 20px;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: transparent linear-gradient(180deg, #441C72C1 0%, #01052D34 100%) 0% 0% no-repeat padding-box;
+}
+
+.img-card-body h4 {
+    flex: 1 1;
 }
 
 .neon-card p,
