@@ -1,0 +1,27 @@
+/* AI Future */
+.our-people>div {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+    .our-people-content {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .our-people {
+        flex-direction: column-reverse;
+    }
+
+    .our-people>div {
+        flex-basis: 100%;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .our-people img {
+        margin-top: 40px;
+    }
+}

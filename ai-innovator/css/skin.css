@@ -113,6 +113,15 @@ a.button-neon:hover {
     color: var(--color-white);
 }
 
+/* Slick People 2 row */
+.slick-people-img {
+    border: 1px solid var(--color-slick-people-border);
+}
+
+.slick-people-info::before {
+    background: var(--color-slick-people-border);
+}
+
 /* Important Dates */
 .important-date::before {
     background: transparent linear-gradient(231deg, var(--color-important-date-gradient-1) 0%, var(--color-important-date-gradient-2) 100%) 0% 0% no-repeat padding-box;
