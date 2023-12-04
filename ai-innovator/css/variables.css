@@ -22,6 +22,11 @@
     --color-neon-card-gradient-1: #441C72C1;
     --color-neon-card-gradient-2: #01052D34;
 
+    /* Image Card */
+    --color-img-card-img-border: #5C0E4C;
+    --color-img-card-gradient-1: #441C72C1;
+    --color-img-card-gradient-2: #01052D34;
+
     /* Award Component */
     --color-award-wrapper-gradient-1: #441C72C1;
     --color-award-wrapper-gradient-2: #01052D;
@@ -47,6 +52,13 @@
 
     /* About img border */
     --color-about-img-border: #707070;
+
+    /* Offline Workshops */
+    --color-offline-workshops: #3D8AE2;
+
+    /* Office Hours */
+    --color-office-hours-gradient-1: #441C72C1;
+    --color-office-hours-gradient-2: #01052D34;
 
     /* Slick */
     --color-arrow-border: #3D8AE2;

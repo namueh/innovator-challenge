@@ -1,3 +1,17 @@
+/* Learn and Compete */
+.learn-compete-content {
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .learn-compete-content p {
+        width: 71%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+
 /* Online Learning */
 .online-learning h2 {
     margin-bottom: 46px;
@@ -30,13 +44,8 @@
     position: absolute;
     width: 5px;
     height: 100%;
-    background: #3D8AE2;
     left: 0;
     top: 0;
-}
-
-.offline-workshops-content h3 {
-    color: #3D8AE2;
 }
 
 @media screen and (min-width: 768px) {
@@ -88,7 +97,6 @@
 .office-hours {
     display: flex;
     padding: 60px;
-    background: transparent linear-gradient(to right, #441C72C1 0%, #01052D34 100%) 0% 0% no-repeat padding-box;
 }
 
 .office-hours>div {

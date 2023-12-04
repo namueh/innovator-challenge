@@ -70,6 +70,15 @@ a.button-neon:hover,
     background: transparent linear-gradient(180deg, var(--color-neon-card-gradient-1) 0%, var(--color-neon-card-gradient-2) 100%) 0% 0% no-repeat padding-box;
 }
 
+/* Image Card */
+.img-card-img img {
+    border: 1px solid var(--color-img-card-img-border);
+}
+
+.img-card-body {
+    background: transparent linear-gradient(180deg, var(--color-img-card-gradient-1) 0%, var(--color-img-card-gradient-2) 100%) 0% 0% no-repeat padding-box;
+}
+
 /* Award Component */
 .awards-wrapper {
     background: transparent linear-gradient(to right, var(--color-award-wrapper-gradient-1) 0%, var(--color-award-wrapper-gradient-2) 49%, var(--color-award-wrapper-gradient-3) 100%) 0% 0% no-repeat padding-box;
@@ -155,4 +164,18 @@ a.button-neon:hover,
 .about-vinuni-img img,
 .about-skola-img img {
     border: 1px solid var(--color-about-img-border);
+}
+
+/* Offline Workshop */
+.offline-workshops-content>.content::before {
+    background: var(--color-offline-workshops);
+}
+
+.offline-workshops-content h3 {
+    color: var(--color-offline-workshops);
+}
+
+/* Office Hours */
+.office-hours {
+    background: transparent linear-gradient(to right, var(--color-office-hours-gradient-1) 0%, var(--color-office-hours-gradient-2) 100%) 0% 0% no-repeat padding-box;
 }

@@ -273,6 +273,20 @@ a.button-neon:hover,
     }
 }
 
+@media screen and (max-width: 374px) {
+
+    .neon-cards-wrapper,
+    .simple-cards-wrapper {
+        gap: 20px;
+    }
+
+    .neon-cards-wrapper .neon-card,
+    .simple-cards-wrapper .simple-card {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
 .neon-card,
 .simple-card,
 .img-card {
@@ -308,7 +322,6 @@ a.button-neon:hover,
 
 .img-card-img img {
     width: 100%;
-    border: 1px solid #5C0E4C;
     object-fit: cover;
 }
 
@@ -319,7 +332,6 @@ a.button-neon:hover,
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: transparent linear-gradient(180deg, #441C72C1 0%, #01052D34 100%) 0% 0% no-repeat padding-box;
 }
 
 .img-card-body h4 {
