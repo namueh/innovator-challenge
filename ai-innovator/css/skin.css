@@ -179,3 +179,9 @@ a.button-neon:hover,
 .office-hours {
     background: transparent linear-gradient(to right, var(--color-office-hours-gradient-1) 0%, var(--color-office-hours-gradient-2) 100%) 0% 0% no-repeat padding-box;
 }
+
+/* Round triple O */
+.learn-compete-round .content-triple::before,
+.learn-compete-round .content-triple::after {
+    background: var(--color-round-triple-o);
+}
