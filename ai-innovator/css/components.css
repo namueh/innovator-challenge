@@ -338,18 +338,18 @@ a.button-neon:hover,
     flex: 1 1;
 }
 
-.neon-card p,
+/* .neon-card p,
 .simple-card p {
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 4; */
     /* autoprefixer: off */
-    -webkit-box-orient: vertical;
+    /* -webkit-box-orient: vertical; */
     /* autoprefixer: on */
-    overflow: hidden;
+    /* overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
     flex: 1 1;
-}
+} */
 
 @media screen and (max-width:1023px) {
     .neon-card {

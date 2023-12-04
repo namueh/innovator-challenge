@@ -49,6 +49,10 @@
     max-width: 32%;
 }
 
+.endorsed {
+    display: none;
+}
+
 .endorsed p {
     font-style: italic;
 }
@@ -85,6 +89,10 @@
     margin-bottom: 20px;
 }
 
+.ai-ethics {
+    gap: 100px;
+}
+
 @media screen and (max-width: 1023px) {
     .ai-ethics {
         flex-direction: column;
@@ -93,6 +101,10 @@
 }
 
 /* Ethical Concerns */
+.ethical-concerns {
+    display: none !important;
+}
+
 .ethical-concerns h2 {
     margin-bottom: 30px;
     text-align: center;
