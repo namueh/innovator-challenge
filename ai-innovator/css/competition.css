@@ -70,7 +70,7 @@
     .business-application .neon-cards-wrapper {
         gap: 20px;
     }
-    
+
     .business-application .neon-cards-wrapper .neon-card {
         flex-basis: 100%;
         max-width: 100%;
@@ -150,8 +150,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-.ai-future-competition p,
-.ai-ethics p {
-    text-align: justify;
-}
+
+    .ai-future-competition p,
+    .ai-ethics p {
+        text-align: justify;
+    }
 }
