@@ -48,16 +48,16 @@ body {
 }
 
 .display-sm {
-    display: none;
+    display: none !important;
 }
 
 @media screen and (max-width: 1023px) {
     .display-lg {
-        display: none;
+        display: none !important;
     }
 
     .display-sm {
-        display: block;
+        display: block !important;
         margin-bottom: 30px;
         width: 100%;
     }
