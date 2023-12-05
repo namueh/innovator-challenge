@@ -14,7 +14,15 @@
     position: relative;
 }
 
+.learn-compete-round .content-triple {
+    text-align: justify;
+}
+
 @media screen and (min-width: 1200px) {
+    .learn-compete {
+        gap: 46px;
+    }
+
     .learn-compete-content p {
         width: 71%;
         margin-left: auto;
@@ -23,7 +31,7 @@
 
     .learn-compete-round .content-triple {
         position: absolute;
-        width: 240px;
+        width: 320px;
     }
     
     .learn-compete-round .content-triple:nth-of-type(1) {
@@ -157,13 +165,10 @@
     text-align: center;
 }
 
-.offline-workshops-content-wrapper {
-    display: flex;
-}
-
 .offline-workshops-content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -181,22 +186,18 @@
     top: 0;
 }
 
-@media screen and (min-width: 768px) {
-    .offline-workshops-content-wrapper>div {
-        flex-basis: 50%;
-        max-width: 50%;
-    }
+.offline-workshops-content>.content p {
+    text-align: justify;
+}
 
+@media screen and (min-width: 768px) {
     .offline-workshops-content {
         gap: 50px;
     }
 
-    .offline-workshops-content:last-of-type {
-        align-items: flex-end;
-    }
-
     .offline-workshops-content>.content {
-        width: 90%;
+        flex-basis: 46%;
+        max-width: 46%;
         padding: 10px 40px;
     }
 }
@@ -238,6 +239,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.office-content p {
+    text-align: justify;
 }
 
 .office-hours .button-neon {

@@ -26,6 +26,12 @@
     display: none;
 }
 
+@media screen and (min-width: 1201px) {
+    .header-small {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .header {
         height: 130px;
@@ -294,7 +300,14 @@ a.button-neon:hover,
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    text-align: center;
     transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.neon-card p,
+.simple-card p,
+.img-card p {
+    text-align: center;
 }
 
 .neon-card,
@@ -332,10 +345,6 @@ a.button-neon:hover,
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.img-card-body h4 {
-    flex: 1 1;
 }
 
 /* .neon-card p,

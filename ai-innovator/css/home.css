@@ -31,16 +31,22 @@
     margin-bottom: 20px;
 }
 
-.about-home-content {
-    padding: 46px;
-}
-
 .about-home-content .content {
     max-width: 585px;
 }
 
 .about-home-content .content>p:last-of-type {
     margin-bottom: 30px;
+}
+
+.about-home-image {
+    padding-right: 46px;
+}
+
+@media screen and (min-width: 1024px) { 
+    .about-home-content p {
+        text-align: justify;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -55,7 +61,6 @@
     }
 
     .about-home-content {
-        padding: 0;
         background-image: url("../img/background.png");
         background-size: contain;
         background-repeat: no-repeat;
@@ -89,6 +94,19 @@
 
     .neon-cards-wrapper.apply-cards .neon-card:nth-of-type(odd) {
         margin-bottom: 64px
+    }
+}
+
+@media screen and (max-width:539px) {
+    .benefits-home .neon-cards-wrapper,
+    .apply-home .neon-cards-wrapper {
+        gap: 20px;
+    }
+
+    .benefits-home .neon-cards-wrapper .neon-card,
+    .apply-home .neon-cards-wrapper .neon-card {
+        flex-basis: 100%;
+        max-width: 100%;
     }
 }
 

@@ -41,6 +41,10 @@
         align-items: center;
         text-align: center;
     }
+
+    .ai-ethics {
+        text-align: center;
+    }
 }
 
 /* Business Application */
@@ -72,7 +76,6 @@
         max-width: 100%;
     }
 }
-
 
 /* Card images */
 .card-images {
@@ -106,10 +109,6 @@
 }
 
 /* Ethical Concerns */
-.ethical-concerns {
-    display: none !important;
-}
-
 .ethical-concerns h2 {
     margin-bottom: 30px;
     text-align: center;
@@ -148,4 +147,11 @@
         flex-basis: 100%;
         max-width: 100%;
     }
+}
+
+@media screen and (min-width: 1024px) {
+.ai-future-competition p,
+.ai-ethics p {
+    text-align: justify;
+}
 }
