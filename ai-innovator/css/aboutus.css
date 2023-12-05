@@ -42,15 +42,15 @@
 
 @media screen and (min-width: 1024px) {
 
+    .about-vinuni,
+    .about-skola {
+        gap: 40px;
+    }
+
     .about-vinuni>div,
     .about-skola>div {
         flex-basis: 50%;
         max-width: 50%;
-    }
-
-    .about-vinuni-content,
-    .about-skola-content {
-        padding: 0 30px;
     }
 
     .about-vinuni-content p,
