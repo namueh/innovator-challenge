@@ -52,6 +52,11 @@
     .about-skola-content {
         padding: 0 30px;
     }
+
+    .about-vinuni-content p,
+    .about-skola-content p {
+        text-align: justify;
+    }
 }
 
 @media screen and (max-width: 1023px) {
