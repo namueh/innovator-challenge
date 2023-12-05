@@ -61,6 +61,14 @@
         background-repeat: no-repeat;
         background-position: center;
         align-items: center;
+        text-align: center;
+    }
+
+    .about-home-content .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .about-home-image {

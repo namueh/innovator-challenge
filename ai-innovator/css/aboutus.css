@@ -61,6 +61,15 @@
     .about-skola {
         flex-direction: column;
     }
+
+    .about-vinuni-content,
+    .about-skola-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
 }
 
 /* Contact */

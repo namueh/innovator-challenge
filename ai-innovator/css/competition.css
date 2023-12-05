@@ -36,6 +36,11 @@
     .ai-future-competition-img img {
         max-width: 100%;
     }
+
+    .ai-future-competition-content {
+        align-items: center;
+        text-align: center;
+    }
 }
 
 /* Business Application */
