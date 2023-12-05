@@ -134,16 +134,16 @@
     }
 }
 
-.learn-compete-round .content-triple p {
+/* .learn-compete-round .content-triple p {
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 3; */
     /* autoprefixer: off */
-    -webkit-box-orient: vertical;
+    /* -webkit-box-orient: vertical; */
     /* autoprefixer: on */
-    overflow: hidden;
+    /* overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
-}
+} */
 
 /* Online Learning */
 .online-learning h2 {

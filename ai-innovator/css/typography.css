@@ -137,6 +137,10 @@ textarea {
     }
 }
 
+.learn-compete-round .content-triple p {
+    font-size: 17px;
+}
+
 @media screen and (max-width: 1279px) {
     .learn-compete-round .content-triple p {
         font-size: 14px;
