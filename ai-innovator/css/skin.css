@@ -185,3 +185,21 @@ a.button-neon:hover,
 .learn-compete-round .content-triple::after {
     background: var(--color-round-triple-o);
 }
+
+@media screen and (max-width: 1199px) {
+    .learn-compete-round .content-triple p {
+        color: var(--color-white);
+    }
+
+    .learn-compete-round .content-triple:nth-of-type(1) {
+        background-color: var(--color-first-o);
+    }
+
+    .learn-compete-round .content-triple:nth-of-type(2) {
+        background-color: var(--color-second-o);
+    }
+    
+    .learn-compete-round .content-triple:nth-of-type(3) {
+        background-color: var(--color-third-o);
+    }
+}

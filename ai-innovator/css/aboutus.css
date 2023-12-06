@@ -5,10 +5,10 @@
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
+    text-align: center;
 }
 
 .about-banner h1 {
-    text-align: center;
     font-family: 'Sarabun Bold';
 }
 

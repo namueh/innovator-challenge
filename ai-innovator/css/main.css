@@ -8,6 +8,11 @@
 @import url(../css/people.css);
 @import url(../css/aboutus.css);
 
+::selection {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
 body {
     padding: 0;
     overflow-x: hidden;

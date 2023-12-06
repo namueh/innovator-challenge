@@ -62,6 +62,9 @@
 
     /* Round triple O */
     --color-round-triple-o: #707070;
+    --color-first-o: #8101FF;
+    --color-second-o: #CA22E9;
+    --color-third-o: #00C4FE;
 
     /* Slick */
     --color-arrow-border: #3D8AE2;

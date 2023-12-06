@@ -48,7 +48,7 @@
 }
 
 /* Business Application */
-.business-application h2 {
+.business-application-heading {
     margin-bottom: 46px;
     text-align: center;
 }
@@ -93,7 +93,7 @@
 }
 
 /* AI Ethics */
-.ai-ethics h2 {
+.ai-ethics-heading {
     margin-bottom: 20px;
 }
 
