@@ -299,20 +299,19 @@ a.button-neon:hover,
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .neon-card p,
 .simple-card p,
 .img-card p {
-    text-align: center;
+    text-align: justify;
 }
 
 .neon-card,
 .simple-card {
-    text-align: center;
+    text-align: left;
 }
 
 .neon-card {
@@ -383,6 +382,10 @@ a.button-neon:hover,
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+
+.awards-header {
+    text-align: center;
 }
 
 .prize {
