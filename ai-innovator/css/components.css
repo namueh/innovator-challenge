@@ -334,6 +334,7 @@ a.button-neon:hover,
 
 .img-card-img img {
     width: 100%;
+    height: 221px;
     object-fit: cover;
 }
 
@@ -502,17 +503,24 @@ a.button-neon:hover,
     gap: 50px;
 }
 
+.people-2rows-slider .slick-slide > div {
+    flex: 1 1;
+    display: flex;
+}
+
 .slick-people {
     display: flex !important;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
+    flex: 1 1;
 }
 
 .slick-people-img {
     margin: 0 auto;
     border-radius: 50%;
     width: 228px;
+    height: 228px;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -522,6 +530,7 @@ a.button-neon:hover,
     text-align: center;
     position: relative;
     padding-bottom: 15px;
+    flex: 1 1;
 }
 
 .slick-people-info::before {
