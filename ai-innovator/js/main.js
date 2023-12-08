@@ -73,6 +73,26 @@ $(document).ready(function () {
         ]
     });
 
+    $('.people-2rows').each(function () {
+        var maxCardHeight = 0;
+        var maxInfoHeight = 0;
+        var $cards = $(this).find('.slick-slide div');
+        var $info = $(this).find('.slick-slide .people')
+        $cards.each(function () {
+            var cardHeight = $(this).height();
+            if (cardHeight > maxCardHeight) {
+                maxCardHeight = cardHeight;
+            }
+        });
+        $info.each(function () {
+            var infoHeight = $(this).height();
+            if (infoHeight > maxInfoHeight) {
+                maxInfoHeight = infoHeight;
+            }
+        });
+        $info.css('height', maxInfoHeight + 20);
+    });
+
     $('.people-1row-slider').slick({
         dots: true,
         arrows: true,

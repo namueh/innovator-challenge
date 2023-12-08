@@ -35,7 +35,8 @@
 .advisory-council h2,
 .judge-panel h2,
 .endorsers-partners h2,
-.competition-comittee h2 {
+.competition-comittee h2,
+.competition-committee h2 {
     margin-bottom: 46px;
     text-align: center;
 }

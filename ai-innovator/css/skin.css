@@ -125,12 +125,16 @@ a.button-neon:hover,
 }
 
 /* Slick People 2 row */
-.slick-people-img {
-    border: 1px solid var(--color-slick-people-border);
+.people-img {
+    border: 1px solid var(--color-people-border);
 }
 
-.slick-people-info::before {
-    background: var(--color-slick-people-border);
+.people-info::before {
+    background: var(--color-people-border);
+}
+
+.people-info h5 {
+    color: var(--color-text-gray);
 }
 
 /* Important Dates */

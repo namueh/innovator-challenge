@@ -508,7 +508,7 @@ a.button-neon:hover,
     display: flex;
 }
 
-.slick-people {
+.people {
     display: flex !important;
     flex-direction: column;
     justify-content: center;
@@ -516,7 +516,7 @@ a.button-neon:hover,
     flex: 1 1;
 }
 
-.slick-people-img {
+.people-img {
     margin: 0 auto;
     border-radius: 50%;
     width: 228px;
@@ -525,7 +525,7 @@ a.button-neon:hover,
     object-fit: cover;
 }
 
-.slick-people-info {
+.people-info {
     margin-top: 25px;
     text-align: center;
     position: relative;
@@ -533,7 +533,7 @@ a.button-neon:hover,
     flex: 1 1;
 }
 
-.slick-people-info::before {
+.people-info::before {
     content: '';
     max-width: 46px;
     width: 100%;
@@ -544,7 +544,7 @@ a.button-neon:hover,
     transform: translate(-50%);
 }
 
-.slick-people-info h3 {
+.people-info h3 {
     margin-top: 15px;
 }
 
