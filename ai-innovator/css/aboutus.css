@@ -40,6 +40,11 @@
     margin-bottom: 30px;
 }
 
+.about-vinuni-content p,
+.about-skola-content p {
+    text-align: justify;
+}
+
 @media screen and (min-width: 1024px) {
 
     .about-vinuni,
@@ -51,11 +56,6 @@
     .about-skola>div {
         flex-basis: 50%;
         max-width: 50%;
-    }
-
-    .about-vinuni-content p,
-    .about-skola-content p {
-        text-align: justify;
     }
 }
 
@@ -70,7 +70,6 @@
 
     .about-vinuni-content,
     .about-skola-content {
-        text-align: center;
         display: flex;
         flex-direction: column;
         justify-self: center;

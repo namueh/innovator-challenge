@@ -149,9 +149,12 @@
     }
 }
 
+.ai-future-competition p {
+    text-align: justify;
+}
+
 @media screen and (min-width: 1024px) {
 
-    .ai-future-competition p,
     .ai-ethics p {
         text-align: justify;
     }

@@ -8,10 +8,13 @@
     max-width: 50%;
 }
 
+.our-people-content {
+    text-align: justify;
+}
+
 @media screen and (min-width: 1024px) {
     .our-people-content {
         margin-left: 50px;
-        text-align: justify;
     }
 }
 
@@ -24,10 +27,6 @@
         flex-basis: 100%;
         max-width: 100%;
         justify-content: center;
-    }
-
-    .our-people-content {
-        text-align: center;
     }
 }
 
