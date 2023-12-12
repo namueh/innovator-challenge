@@ -205,9 +205,14 @@
 }
 
 .date-content {
-    width: 46%;
+    width: 100%;
+    max-width: 460px;
+    min-height: 157px;
     padding: 20px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 600px) {
