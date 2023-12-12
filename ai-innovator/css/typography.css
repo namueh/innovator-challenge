@@ -166,3 +166,14 @@ b {
         font-size: 14px;
     }
 }
+
+.about-banner h1 {
+    font-size: 30px;
+    font-family: 'Sarabun Bold';
+}
+
+@media screen and (min-width: 1024) {
+    .about-banner h1 {
+        font-size: 40px;
+    }
+}
