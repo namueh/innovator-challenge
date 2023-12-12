@@ -45,6 +45,11 @@
     text-align: justify;
 }
 
+.custom-background-hero {
+    padding: 20px;
+    background-color: rgba(0, 123, 255, 0.3);
+}
+
 @media screen and (min-width: 1024px) {
 
     .about-vinuni,
