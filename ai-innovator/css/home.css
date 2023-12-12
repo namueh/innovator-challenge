@@ -185,7 +185,7 @@
 
 .important-date::before {
     position: absolute;
-    top: 18%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
