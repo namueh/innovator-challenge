@@ -84,9 +84,17 @@ a.button-neon:hover,
     background: transparent linear-gradient(to right, var(--color-award-wrapper-gradient-1) 0%, var(--color-award-wrapper-gradient-2) 49%, var(--color-award-wrapper-gradient-3) 100%) 0% 0% no-repeat padding-box;
 }
 
+.awards-wrapper p {
+    color: var(--color-white);
+}
+
 .prize {
     background: transparent linear-gradient(180deg, var(--color-prize-gradient-1) 0%, var(--color-prize-gradient-2) 100%) 0% 0% no-repeat padding-box;
     color: var(--color-prize);
+}
+
+.prize.top-prize {
+    background: transparent linear-gradient(0deg, var(--color-top-prize-gradient-1) 0%, var(--color-top-prize-gradient-2) 100%) 0% 0% no-repeat padding-box;
 }
 
 /* Guidelines Home */
