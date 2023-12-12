@@ -174,7 +174,7 @@ a.button-neon:hover,
 
 /* About banner */
 .custom-background-hero {
-    background-color: #3D8AE290;
+    background-color: var(--color-background-hero);
 }
 
 /* About content */
