@@ -145,12 +145,15 @@
 /* Important Dates */
 .important-date {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
-.important-date:nth-of-type(even) {
+/* .important-date:nth-of-type(even) {
     justify-content: flex-end;
-}
+} */
 
 .important-date::before {
     content: '';
@@ -160,8 +163,9 @@
     z-index: 2;
 }
 
-.important-date:first-of-type:after,
-.important-date:last-of-type:after {
+/* .important-date:first-of-type:after,
+.important-date:last-of-type:after { */
+/* .important-date:first-of-type:after {
     content: '';
     position: absolute;
     width: 1px;
@@ -169,27 +173,34 @@
     left: 50%;
     z-index: 1;
     transform: translate(-50%, 0);
-}
+} */
 
 .important-date:first-of-type:after {
     top: 0;
 }
 
-.important-date:last-of-type:after {
+/* .important-date:last-of-type:after {
     bottom: 0;
-}
+} */
 
-.important-date::before,
-.center-line {
+.important-date::before {
     position: absolute;
-    top: 50%;
+    top: 16%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.important-date:first-of-type:before {
+    top: 0;
+}
+
+.important-date:first-of-type .center-line {
+    height: 32px;
+}
+
 .center-line {
     width: 1px;
-    height: 100%;
+    height: 64px;
     z-index: 1;
 }
 
@@ -200,18 +211,8 @@
 }
 
 @media screen and (max-width: 600px) {
-    .important-date:not(:last-of-type) {
-        padding-bottom: 20px;
-    }
-
-    .important-date:first-of-type:after,
-    .important-date:last-of-type:after {
-        left: 0;
-    }
-
-    .important-date::before,
-    .center-line {
-        left: 0;
+    .important-date::before {
+        top: 20%;
     }
 
     .date-content {
