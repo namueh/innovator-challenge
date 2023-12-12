@@ -39,11 +39,11 @@
 
     .learn-compete-round .content-triple {
         position: absolute;
-        width: 320px;
+        width: 460px;
     }
     
     .learn-compete-round .content-triple:nth-of-type(1) {
-        left: -250px;
+        left: -310px;
         bottom: 220px;
     }
     
@@ -66,7 +66,7 @@
     }
     
     .learn-compete-round .content-triple:nth-of-type(2) {
-        right: -250px;
+        right: -325px;
         bottom: 300px;
     }
     
@@ -89,8 +89,8 @@
     }
     
     .learn-compete-round .content-triple:nth-of-type(3) {
-        left: 50%;
-        top: 300px;
+        left: 55%;
+        top: 305px;
         transform: translate(-50%);
     }
     
