@@ -42,10 +42,14 @@
 }
 
 .custom-background-hero {
-    padding: 40px;
+    padding: 20px;
 }
 
 @media screen and (min-width: 1024px) {
+
+    .custom-background-hero {
+        padding: 40px;
+    }    
 
     .about-vinuni,
     .about-skola {
