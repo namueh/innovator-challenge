@@ -304,9 +304,12 @@ a.button-neon:hover,
 }
 
 .neon-card p,
-.simple-card p,
 .img-card p {
     text-align: left;
+}
+
+.simple-card p {
+    text-align: justify;
 }
 
 .neon-card,
@@ -519,8 +522,8 @@ a.button-neon:hover,
 .people-img {
     margin: 0 auto;
     border-radius: 50%;
-    width: 228px;
-    height: 228px;
+    width: 180px;
+    height: 180px;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -529,8 +532,7 @@ a.button-neon:hover,
     margin-top: 25px;
     text-align: center;
     position: relative;
-    padding-bottom: 15px;
-    flex: 1 1;
+    padding-bottom: 5px;
 }
 
 .people-info::before {

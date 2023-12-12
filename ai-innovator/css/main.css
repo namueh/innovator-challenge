@@ -19,24 +19,24 @@ body {
 }
 
 .my-custom {
-    margin-top: 164px;
-    margin-bottom: 164px;
+    margin-top: 82px;
+    margin-bottom: 82px;
 }
 
 .py-custom {
-    padding-top: 164px;
-    padding-bottom: 164px;
+    padding-top: 82px;
+    padding-bottom: 82px;
 }
 
 @media screen and (max-width: 1023px) {
     .my-custom {
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 
     .py-custom {
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 }
 

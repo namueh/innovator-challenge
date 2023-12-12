@@ -56,6 +56,11 @@
 .business-application .neon-cards-wrapper .neon-card {
     flex-basis: 32%;
     max-width: 32%;
+    padding: 30px;
+}
+
+.business-application .neon-cards-wrapper p {
+    text-align: justify;
 }
 
 .endorsed {
@@ -109,7 +114,7 @@
 }
 
 /* Ethical Concerns */
-.ethical-concerns h2 {
+.ethical-concerns-heading {
     margin-bottom: 30px;
     text-align: center;
 }

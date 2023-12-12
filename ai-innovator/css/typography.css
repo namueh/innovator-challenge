@@ -26,6 +26,15 @@
 }
 
 @font-face {
+    font-family: 'Sarabun ExtraBold';
+    src: url('../font/Sarabun-ExtraBold.woff2') format('woff2'),
+        url('../font/Sarabun-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'GardoGrotesk Regular';
     src: url('../font/GardoGrotesk-Regular.woff2') format('woff2'),
         url('../font/GardoGrotesk-Regular.woff') format('woff');
@@ -65,16 +74,16 @@ h4 {
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 h6 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 h1,
 h2 {
-    font-family: 'GardoGrotesk Regular';
+    font-family: 'Sarabun ExtraBold';
     margin-top: 0;
     line-height: 140%;
 }
@@ -106,7 +115,7 @@ h6 {
     }
 
     h5 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     h6 {
