@@ -185,7 +185,7 @@
 
 .important-date::before {
     position: absolute;
-    top: 16%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -206,15 +206,11 @@
 
 .date-content {
     width: 46%;
-    padding: 30px;
+    padding: 20px;
     border-radius: 15px;
 }
 
 @media screen and (max-width: 600px) {
-    .important-date::before {
-        top: 20%;
-    }
-
     .date-content {
         width: 100%;
         padding: 20px;
