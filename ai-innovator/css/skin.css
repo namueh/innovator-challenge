@@ -172,6 +172,11 @@ a.button-neon:hover,
     color: var(--color-input-text);
 }
 
+/* About banner */
+.custom-background-hero {
+    background-color: #3D8AE290;
+}
+
 /* About content */
 .about-vinuni-img img,
 .about-skola-img img {
