@@ -172,7 +172,7 @@ b {
     font-family: 'Sarabun Bold';
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
     .about-banner h1 {
         font-size: 40px;
     }
