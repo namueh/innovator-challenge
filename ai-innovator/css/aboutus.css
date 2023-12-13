@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+.mini-quote {
+    margin: 0 auto;
+    max-width: 919px;
+    text-align: center;
+}
+
 /* Content about */
 .about-vinuni,
 .about-skola {
@@ -36,10 +42,10 @@
     margin-bottom: 30px;
 }
 
-.about-vinuni-content p,
+/* .about-vinuni-content p,
 .about-skola-content p {
     text-align: justify;
-}
+} */
 
 .custom-background-hero {
     padding: 20px;

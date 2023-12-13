@@ -14,9 +14,9 @@
     position: relative;
 }
 
-.learn-compete-round .content-triple {
+/* .learn-compete-round .content-triple {
     text-align: justify;
-}
+} */
 
 @media screen and (min-width: 1200px) {
     .learn-compete-round {
@@ -185,9 +185,9 @@
     transform: rotate(270deg);
 }
 
-.offline-workshops-content>.content p {
+/* .offline-workshops-content>.content p {
     text-align: justify;
-}
+} */
 
 @media screen and (min-width: 1024px) {
     .offline-workshops-content {
@@ -246,9 +246,9 @@
     justify-content: center;
 }
 
-.office-content p {
+/* .office-content p {
     text-align: justify;
-}
+} */
 
 .office-hours .button-neon {
     margin-top: 30px;

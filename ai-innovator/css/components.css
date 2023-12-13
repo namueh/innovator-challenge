@@ -304,12 +304,9 @@ a.button-neon:hover,
 }
 
 .neon-card p,
-.img-card p {
-    text-align: left;
-}
-
+.img-card p,
 .simple-card p {
-    text-align: justify;
+    text-align: left;
 }
 
 .neon-card,

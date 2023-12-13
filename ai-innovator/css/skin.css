@@ -177,6 +177,10 @@ a.button-neon:hover,
     background-color: var(--color-background-hero);
 }
 
+.mini-quote * {
+    color: var(--color-white);
+}
+
 /* About content */
 .about-vinuni-img img,
 .about-skola-img img {

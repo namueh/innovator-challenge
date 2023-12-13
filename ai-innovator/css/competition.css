@@ -59,9 +59,9 @@
     padding: 30px;
 }
 
-.business-application .neon-cards-wrapper p {
+/* .business-application .neon-cards-wrapper p {
     text-align: justify;
-}
+} */
 
 .endorsed {
     display: none;
@@ -122,6 +122,7 @@
 
 /* Ethical Concerns */
 .ethical-concerns-heading {
+    width: 100%;
     margin-bottom: 30px;
     text-align: left;
 }
