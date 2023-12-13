@@ -207,7 +207,7 @@
 .date-content {
     width: 100%;
     max-width: 390px;
-    min-height: 130px;
+    min-height: 110px;
     padding: 20px;
     border-radius: 15px;
     display: flex;
