@@ -71,6 +71,13 @@
     font-style: italic;
 }
 
+@media screen and (min-width: 768px) {
+    .business-application-heading p {
+        width: 646px;
+        text-align: justify;
+    }
+}
+
 @media screen and (max-width:1023px) {
     .business-application .neon-cards-wrapper {
         gap: 20px;

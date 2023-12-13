@@ -132,7 +132,7 @@ textarea {
     font-size: 16px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
     p,
     input,
     input[type="text"],
@@ -147,7 +147,7 @@ textarea {
     font-size: 60px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
     .large-font {
         font-size: 40px;
     }
@@ -170,14 +170,26 @@ b {
 .about-banner h1 {
     font-size: 20px;
     font-family: 'Sarabun Bold';
+    text-align: justify;
 }
 
 @media screen and (min-width: 1024px) {
     .about-banner h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
 }
 
 .align-left {
     text-align: left;
+}
+
+.prize {
+    font-family: 'Sarabun ExtraBold';
+    font-size: 55px;
+}
+
+@media screen and (max-width: 767px) {
+    .prize {
+        font-size: 40px;
+    }
 }
