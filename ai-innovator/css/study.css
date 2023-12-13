@@ -117,10 +117,10 @@
     .learn-compete-round {
         flex-direction: column;
         gap: 20px;
+        margin: 46px 0;
     }
 
     .learn-compete-round img {
-        width: 100%;
         margin-bottom: 10px;
     }
 
