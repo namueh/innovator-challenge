@@ -170,7 +170,6 @@ b {
 .about-banner h1 {
     font-size: 20px;
     font-family: 'Sarabun Bold';
-    text-align: justify;
 }
 
 @media screen and (min-width: 1024px) {
