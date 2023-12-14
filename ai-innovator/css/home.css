@@ -1,14 +1,18 @@
 /* AI Future */
-.ai-future>div {
-    flex-basis: 50%;
-    max-width: 50%;
+.ai-future-home img {
+    position: relative;
 }
 
-/* 
-@media screen and (min-width: 1024px) {
-    .ai-future h1 {
-        font-size: 80px;
-    }
+.ai-future-home-heading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .ai-future>div {
+    flex-basis: 50%;
+    max-width: 50%;
 } */
 
 .special-h1-sm {
