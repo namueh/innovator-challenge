@@ -347,19 +347,6 @@ a.button-neon:hover,
     gap: 10px;
 }
 
-/* .neon-card p,
-.simple-card p {
-    display: -webkit-box;
-    -webkit-line-clamp: 4; */
-    /* autoprefixer: off */
-    /* -webkit-box-orient: vertical; */
-    /* autoprefixer: on */
-    /* overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: normal;
-    flex: 1 1;
-} */
-
 @media screen and (max-width:1023px) {
     .neon-card {
         padding: 30px 20px;
@@ -399,11 +386,6 @@ a.button-neon:hover,
     border-radius: 50px;
     margin-bottom: 24px;
 }
-
-/* .top-prize {
-    max-width: 324px;
-    height: 100px;
-} */
 
 .award p {
     margin: 0 0 0 15px;

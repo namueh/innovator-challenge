@@ -34,24 +34,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'GardoGrotesk Regular';
-    src: url('../font/GardoGrotesk-Regular.woff2') format('woff2'),
-        url('../font/GardoGrotesk-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'BenzGrotesk';
-    src: url('../font/BenzGrotesk-Heavy.woff2') format('woff2'),
-        url('../font/BenzGrotesk-Heavy.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 * {
     font-family: 'Sarabun Medium';
     line-height: 140%;

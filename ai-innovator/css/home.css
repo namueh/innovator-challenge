@@ -10,11 +10,6 @@
     transform: translate(-50%, -50%);
 }
 
-/* .ai-future>div {
-    flex-basis: 50%;
-    max-width: 50%;
-} */
-
 @media screen and (max-width: 600px) {
     .ai-future-home-heading {
         left: 75%;
