@@ -15,8 +15,10 @@
     max-width: 50%;
 } */
 
-.special-h1-sm {
-    display: none;
+@media screen and (max-width: 600px) {
+    .ai-future-home-heading {
+        left: 75%;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -27,14 +29,6 @@
     .ai-future>div {
         flex-basis: 100%;
         max-width: 100%;
-    }
-
-    .special-h1-lg {
-        display: none;
-    }
-
-    .special-h1-sm {
-        display: block;
     }
 }
 
